@@ -1,0 +1,148 @@
+.pull-down {
+  margin-top: 200px;
+}
+
+.quote-box {
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  padding: 60px 80px 40px 80px;
+}
+
+#quotemarks {
+  font-size: 80px;
+  font-family: "Lucida Console";
+}
+
+.quote-text.quote {
+  font-family: Georgia;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.btn-custom {
+  color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+.btn.btn-custom:hover {
+  color: #FFFFFF;
+  opacity: 0.9;
+  outline: none;
+}
+
+.btn.btn-custom:focus {
+  color: #FFFFFF;
+  outline: none;
+}
+
+.btn.btn-custom:active {
+  color: #FFFFFF;
+  opacity: 0.9;
+  outline: none;
+}
+
+.btn-twitter {
+  padding: 8px 11px;
+}
+
+.btn-area .theme1, body.theme1 {
+  background-color: #AA3323;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.btn-area .theme2, body.theme2 {
+  background-color: #F29A2E;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.btn-area .theme3, body.theme3 {
+  background-color: #385273;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.btn-area .theme4, body.theme4 {
+  background-color: #36B1BF;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.btn-area .theme5, body.theme5 {
+  background-color: #5A0011;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.btn-area .theme6, body.theme6 {
+  background-color: #261B2F;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.btn-area .theme7, body.theme7 {
+  background-color: #F2C84B;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.quote-text.theme1 {
+  color: #AA3323;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+.quote-text.theme2 {
+  color: #F29A2E;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+.quote-text.theme3 {
+  color: #385273;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+.quote-text.theme4 {
+  color: #36B1BF;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+.quote-text.theme5 {
+  color: #5A0011;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+.quote-text.theme6 {
+  color: #261B2F;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+.quote-text.theme7 {
+  color: #F2C84B;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .col-lg-4 {
+    width: 50%;
+  }
+  .col-lg-offset-4 {
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .pull-down {
+    margin: auto;
+  }
+  .btn-area {
+    padding-bottom: 10px;
+  }
+}
